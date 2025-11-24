@@ -9,9 +9,9 @@ Ephemeral secret sharing app built with Flask and HTMX.
 
 ## Setup
 1. `pip install -r requirements.txt`
-2. `python app.py`
-3. Visit `http://127.0.0.1:5000`
+2. `python src/app.py`
+3. Visit `http://127.0.0.1:8000`
 
 ## Docker
 - `docker build -t secretshare-py .`
-- `docker run -p 5000:5000 secretshare-py`
+- `docker run -p 8000:8000 secretshare-py`
